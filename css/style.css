@@ -1,6 +1,6 @@
 body{
   padding: 0;
-  font-family: Calibiri;
+  font-family: "arial", Georgia, Serif;
   font-size: 11px;
   margin:0;
 }
@@ -29,26 +29,23 @@ padding-top:50px;
   -webkit-flex-flow: row wrap;
   justify-content: center;
 }
+
 .navigation a {
   text-decoration: none;
   display: block;
-  font-size:20px;
+  font-size:25px;
   padding: 1em;
   color: white;
 }
 
-
 .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
 }
 
 .flex-item {
@@ -187,4 +184,12 @@ input[type=submit]:hover {
 
 textarea {
   width: 80%;
+}
+
+progress{
+  width: 65%;
+}
+
+p{
+  margin:3%;
 }
